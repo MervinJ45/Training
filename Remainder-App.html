@@ -21,7 +21,7 @@
           <button id="navAdd" class="btn btn-outline-light">Add</button>
           <button id="navList" class="btn btn-outline-light">List</button>
           <button id="navTable" class="btn btn-outline-light">Table</button>
-          <button id="navDate" class="btn btn-outline-light">Time</button>
+          <button id="navDate" class="btn btn-outline-light" disabled="true">Time</button>
         </div>
       </aside>
 
@@ -113,7 +113,7 @@
               </div>
 
               <div class="col-12 d-flex gap-2">
-                <button type="button" id="addBtn" class="btn btn-success">
+                <button type="button" id="submitBtn" class="btn btn-success">
                   Add
                 </button>
                 <button type="reset" class="btn btn-secondary">
@@ -143,7 +143,7 @@
                 <th>Actions</th>
               </tr>
             </thead>
-            <tbody></tbody>
+            <tbody id="tableBody"></tbody>
           </table>
         </div>
 
